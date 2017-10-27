@@ -15,10 +15,6 @@ orange = [int(orange_temp) for orange_temp in input().strip().split(' ')]
 a_count = 0
 o_count = 0
 
-#if (s<1 or t<1 or a<1 or b<1 or m<1 or n<1):
-#    sys.exit()
-#if (s>100000 or t>100000 or a>)
-
 for apple_dist in apple:
     apple_loc = a + apple_dist
     if apple_loc >= s and apple_loc <= t:
